@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+
+/* - Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+
+.blocks{
+    padding: 1.5rem;
+}
+
+h1{
+    font-size: 1rem;
+    color: hsl(179, 62%, 43%);
+}
+
+h2{
+    font-size: 1rem;
+    color: #fff;
+}
+
+p{
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    color:  hsl(204, 43%, 93%);
+}
+
+.block1{
+    background: #fff;
+}
+
+.block1_content{
+    color: hsl(218, 22%, 67%);
+}
+
+.block1_heading{
+    font-size: 0.9rem;
+    color:  hsl(71, 73%, 54%);
+    margin: 1rem 0;
+}
+
+.block2{
+    background:  hsl(179, 62%, 43%);
+}
+
+.price{
+    margin: 1rem 0 0.2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.block_price{
+    font-size: x-large;
+    font-weight: 700;
+    color: #fff;
+}
+
+.block_price_text{
+    font-size: 0.7rem;
+    color:  hsla(203, 44%, 93%, 0.658);
+}
+
+.block2_content{
+    margin-bottom: 1rem;
+}
+
+.sign-up-btn{
+    padding: 1rem;
+    background: hsl(71, 73%, 54%);
+    width: 100%;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 10px #165e5d;
+    color: #fff;
+}
+
+.block3{
+    background:  hsla(179, 62%, 43%, 0.788);
+}
+
+.block3_content{
+    margin: 1rem 0 0 0 ;
+}
+
